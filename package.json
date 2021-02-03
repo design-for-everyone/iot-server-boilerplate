@@ -1,0 +1,33 @@
+{
+  "name": "server-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate code for setting up a webserver used for MQTT traffic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/design-for-everyone/iot-server-boilerplate.git"
+  },
+  "keywords": [
+    "iot",
+    "mqtt",
+    "node"
+  ],
+  "author": "Frederik Duchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/design-for-everyone/iot-server-boilerplate/issues"
+  },
+  "homepage": "https://github.com/design-for-everyone/iot-server-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mqtt": "^4.2.6",
+    "socket.io": "^3.1.0"
+  }
+}
